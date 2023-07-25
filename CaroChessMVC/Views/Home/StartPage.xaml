@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CaroChessMVC.Views.Home.StartPage">
+    
+    <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+        <Label Text="WELCOME TO CARO GAME" HorizontalOptions="Center" FontSize="Title" TextColor="#116A7B"  />
+        <Image Source="startImg"/>
+        <Button x:Name="btnStart" Text="Start" FontSize="Title" TextColor="Blue" 
+                HorizontalOptions="Center"  
+                HeightRequest="60"
+                WidthRequest="120"
+                CornerRadius="10"/>
+    </StackLayout>
+    
+</ContentPage>

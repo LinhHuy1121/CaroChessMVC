@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CaroChessMVC.Views.Home.HomePage">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" x:Name="header_tools"  >
+                <Button x:Name="btnHome" Text="Home"/>
+                <Button x:Name="btnRestart" Text="Restart"/>
+                <Button x:Name="btnUndo" Text="Undo"/>
+            </StackLayout>
+            
+            <Grid x:Name="BanCo" BackgroundColor="Black" RowSpacing="1" ColumnSpacing="1" Padding="1" Margin="10"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
